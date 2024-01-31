@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "viatrux", "src\viatrux\viatrux.csproj", "{D50EDE70-2DBF-40FC-8630-7C74A0E74559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viatrux-test", "tests\viatrux-test\viatrux-test.csproj", "{8CCDA626-4C04-426D-951E-98BBA5A48DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27255702-11F0-42C2-97FF-45D075E92F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{216B984F-413D-4757-B986-1BB0468D9748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F4789985-48BD-4F3B-80EA-1AC02352CD6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{84BD0BE5-49EC-4C58-9AA4-D6CE29F2C5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{56C02942-8C14-417D-A3D9-F3922B845576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\Persistence\Persistence.csproj", "{FAE40608-BF2C-490D-9D70-03F2E1D93DB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50EDE70-2DBF-40FC-8630-7C74A0E74559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50EDE70-2DBF-40FC-8630-7C74A0E74559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50EDE70-2DBF-40FC-8630-7C74A0E74559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50EDE70-2DBF-40FC-8630-7C74A0E74559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCDA626-4C04-426D-951E-98BBA5A48DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCDA626-4C04-426D-951E-98BBA5A48DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCDA626-4C04-426D-951E-98BBA5A48DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCDA626-4C04-426D-951E-98BBA5A48DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216B984F-413D-4757-B986-1BB0468D9748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216B984F-413D-4757-B986-1BB0468D9748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216B984F-413D-4757-B986-1BB0468D9748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216B984F-413D-4757-B986-1BB0468D9748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BD0BE5-49EC-4C58-9AA4-D6CE29F2C5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BD0BE5-49EC-4C58-9AA4-D6CE29F2C5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BD0BE5-49EC-4C58-9AA4-D6CE29F2C5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BD0BE5-49EC-4C58-9AA4-D6CE29F2C5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C02942-8C14-417D-A3D9-F3922B845576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C02942-8C14-417D-A3D9-F3922B845576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C02942-8C14-417D-A3D9-F3922B845576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C02942-8C14-417D-A3D9-F3922B845576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE40608-BF2C-490D-9D70-03F2E1D93DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE40608-BF2C-490D-9D70-03F2E1D93DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE40608-BF2C-490D-9D70-03F2E1D93DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE40608-BF2C-490D-9D70-03F2E1D93DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AB96E4F-99AF-41A3-9AC6-82656CC63480}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CCDA626-4C04-426D-951E-98BBA5A48DC4} = {F4789985-48BD-4F3B-80EA-1AC02352CD6F}
+		{D50EDE70-2DBF-40FC-8630-7C74A0E74559} = {27255702-11F0-42C2-97FF-45D075E92F01}
+		{216B984F-413D-4757-B986-1BB0468D9748} = {27255702-11F0-42C2-97FF-45D075E92F01}
+		{84BD0BE5-49EC-4C58-9AA4-D6CE29F2C5E3} = {27255702-11F0-42C2-97FF-45D075E92F01}
+		{56C02942-8C14-417D-A3D9-F3922B845576} = {27255702-11F0-42C2-97FF-45D075E92F01}
+		{FAE40608-BF2C-490D-9D70-03F2E1D93DB0} = {27255702-11F0-42C2-97FF-45D075E92F01}
+	EndGlobalSection
+EndGlobal
